@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+           
+        }
+        table{
+            
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: darkgrey;
+            color: white;
+        }
+         thead> tr > th{
+            position: sticky;
+            top: -1;
+            background-color: aquamarine;
+         }
+        tbody > tr:nth-child(2n){
+            background-color: blueviolet
+            
+
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas Grandes</h1>
+    <!--Anatomia para tabelas grandes
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY   
+                TR, TD, TH
+            TFOOT 
+                TR, TD, TH-->
+
+    <table>
+        <caption>Tabela Teste</caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População </th>
+                <th>Faixa Etária</th>
+             </tr>
+        </thead>
+
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.890,00</td>
+                <td>18 anos</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>34.897,98</td>
+                <td>87 anos</td>
+            </tr>
+            <tr>
+              <td>Rio de Janeiro</td>
+              <td>17.678,54</td>
+              <td>63 anos</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td>84.987,56</td>
+                <td>29 anos</td>
+            </tr>
+            
+            
+        </tbody>
+
+
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <td><strong>0000</strong></td>
+                <td><strong>6% ao todo</strong></td>
+            </tr>
+        </tfoot>
+    </table>            
+</body>
+</html>
