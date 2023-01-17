@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Filmes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        table{
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption{
+            font-size:1.3em ;
+            font-weight: bold;
+            padding: 10px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabelas</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+               <th>Grupos</th>
+               <th>Nomes</th>
+               <th colspan="2">Filme</th> 
+            </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th rowspan="3">Mulheres</th>
+            <td>Ana Maria </td>
+            <td>Alien</td>
+            <td>Vingadores</td>
+        </tr>
+        <tr>
+           <td>Bruna</td>
+           <td>Jumanji</td>
+           <td>Orfã 2</td>
+            
+            
+        </tr>
+        <tr>
+            <td>Sabrina</td>
+            <td>Robocop</td>
+            <td>Indescritivel</td>
+        </tr>
+        <tr>
+        <th rowspan="3">Homens</th>
+        <td>Hugo</td>
+        <td>Perdão 2</td>
+        <td>4 casas</td>
+        </tr>
+        <tr>
+            <td>Gabriel</td>
+            <td>Marley e eu</td>
+            <td>School</td>
+        </tr>
+        <tr>
+            <td>Joao Pedro</td>
+            <td>Surf</td>
+            <td>Dando onda</td>
+        </tr>
+
+        
+    </tbody>
+</table>
+</body>
+</html>
