@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 @media screen and (min-widht: 768px){
-    #burguer{
+    i#burguer{
         display: none;
     }
+     }
 
     menu{
         display: block;
     }
-}
